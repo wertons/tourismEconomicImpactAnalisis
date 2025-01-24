@@ -7626,7 +7626,7 @@ a.anchor-link {
 <h2 class="presentation-subtitle">Impacto Económico y Tendencias</h2>
 <p class="presentation-text">
             Este proyecto presenta un análisis detallado del impacto del turismo en la economía global 
-            utilizando datos de <strong>World DataBank</strong>. Se estudian tendencias clave como el crecimiento 
+            utilizando datos de <strong>World Bank Group</strong>. Se estudian tendencias clave como el crecimiento 
             de llegadas turísticas, ingresos generados y su relación con indicadores económicos como 
             el PIB y la inflación.  
             <br/><br/>
@@ -7640,15 +7640,25 @@ a.anchor-link {
 </div>
 <!-- Secciones de contenido -->
 <h2 id="intro">Introducción</h2>
-<p>Aquí va la introducción...</p>
-<h2 id="data">Datos</h2>
-<p>Aquí se explican los datos...</p>
-<h2 id="analysis">Análisis</h2>
-<p>Aquí se describe el análisis...</p>
-<h2 id="results">Resultados</h2>
-<p>Aquí se presentan los resultados...</p>
-<h2 id="conclusions">Conclusiones</h2>
-<p>Conclusiones y recomendaciones...</p>
+<p>
+        El turismo es un sector clave en la economía global, representando una fuente significativa de ingresos y empleo para muchos países. 
+        El análisis de datos turísticos puede proporcionar información valiosa para la formulación de políticas económicas, estrategias de 
+        desarrollo sostenible y la promoción de destinos turísticos. 
+    </p>
+<p>
+        En este proyecto, se ha realizado una visualización interactiva de datos turísticos y económicos provenientes del 
+        <a href="https://data.worldbank.org/indicator/ST.INT.ARVL?end=2019&amp;start=2019&amp;view=bar" target="_blank">World Bank Group</a>, con el objetivo de identificar patrones, correlaciones y tendencias que puedan 
+        ayudar a comprender mejor el impacto del turismo en la economía global.
+    </p>
+<p>
+        Las preguntas clave que se pretenden responder con este análisis son:
+    </p>
+<ul>
+<li>¿Cómo ha evolucionado el turismo a lo largo del tiempo en diferentes regiones?</li>
+<li>¿Existe una relación significativa entre el turismo y el PIB de los países?</li>
+<li>¿Qué países han experimentado el mayor crecimiento en llegadas de turistas?</li>
+<li>¿De qué manera el turismo influye en las tasas de desempleo e inflación?</li>
+</ul>
 </div>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -7660,8 +7670,8 @@ a.anchor-link {
             <a href="#intro">Introducción</a>
             <a href="#data-exploration">Exploración de los datos</a>
             <a href="#variable-evolution-visualization">Visualización de la Evolución Temporal</a>
-            <a href="#results">AAA</a>
-            <a href="#conclusions">AAA</a>
+            <a href="#per-year-tendencies">Tendencias por año</a>
+            <a href="#interactive-top-10">Top 10 interactivo</a>
         `;
         document.body.insertBefore(sidebar, document.body.firstChild);
     });
@@ -7759,7 +7769,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -7789,7 +7799,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7825,79 +7835,79 @@ a.anchor-link {
 </thead>
 <tbody>
 <tr>
-<th>1527</th>
-<td>Pacific island small states</td>
-<td>PSS</td>
-<td>2004</td>
-<td>8.512144e+08</td>
-<td>NaN</td>
-<td>41.931501</td>
-<td>NaN</td>
-<td>7.299035</td>
-<td>4.876586e+09</td>
-<td>4.964076</td>
-<td>NaN</td>
-<td>None</td>
-</tr>
-<tr>
-<th>3153</th>
-<td>Syrian Arab Republic</td>
-<td>SYR</td>
-<td>2010</td>
-<td>6.308000e+09</td>
-<td>1.097000e+07</td>
-<td>32.174167</td>
-<td>6.259000e+06</td>
-<td>8.233380</td>
-<td>6.139083e+10</td>
-<td>4.397414</td>
-<td>8.610</td>
-<td>SY</td>
-</tr>
-<tr>
-<th>5305</th>
-<td>United States</td>
-<td>USA</td>
+<th>5110</th>
+<td>Djibouti</td>
+<td>DJI</td>
 <td>2018</td>
-<td>2.419840e+11</td>
-<td>1.693249e+08</td>
-<td>9.517715</td>
-<td>1.584454e+08</td>
-<td>5.665321</td>
-<td>2.065652e+13</td>
-<td>2.442583</td>
-<td>3.896</td>
-<td>US</td>
+<td>5.700000e+07</td>
+<td>NaN</td>
+<td>1.249160</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>2.913467e+09</td>
+<td>0.147971</td>
+<td>NaN</td>
+<td>DJ</td>
 </tr>
 <tr>
-<th>897</th>
-<td>Croatia</td>
-<td>HRV</td>
-<td>2002</td>
-<td>3.952000e+09</td>
-<td>4.173700e+07</td>
-<td>40.100487</td>
-<td>NaN</td>
-<td>6.902220</td>
-<td>2.675772e+10</td>
-<td>1.671784</td>
-<td>15.053</td>
-<td>HR</td>
+<th>1573</th>
+<td>Tunisia</td>
+<td>TUN</td>
+<td>2004</td>
+<td>2.432000e+09</td>
+<td>5.998000e+06</td>
+<td>18.011387</td>
+<td>2312000.0</td>
+<td>3.011269</td>
+<td>3.118389e+10</td>
+<td>3.632280</td>
+<td>14.230000</td>
+<td>TN</td>
 </tr>
 <tr>
-<th>4186</th>
-<td>West Bank and Gaza</td>
-<td>PSE</td>
-<td>2014</td>
-<td>4.120000e+08</td>
-<td>5.560000e+05</td>
-<td>18.611571</td>
+<th>742</th>
+<td>Sierra Leone</td>
+<td>SLE</td>
+<td>2001</td>
+<td>1.400000e+07</td>
 <td>NaN</td>
-<td>7.076935</td>
-<td>1.398970e+10</td>
-<td>1.732985</td>
-<td>20.527</td>
-<td>PS</td>
+<td>17.258535</td>
+<td>20000.0</td>
+<td>15.288242</td>
+<td>1.681474e+09</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>SL</td>
+</tr>
+<tr>
+<th>2412</th>
+<td>Benin</td>
+<td>BEN</td>
+<td>2008</td>
+<td>2.364000e+08</td>
+<td>1.027000e+06</td>
+<td>14.442674</td>
+<td>NaN</td>
+<td>4.233338</td>
+<td>9.787735e+09</td>
+<td>7.947299</td>
+<td>NaN</td>
+<td>BJ</td>
+</tr>
+<tr>
+<th>330</th>
+<td>Europe &amp; Central Asia (excluding high income)</td>
+<td>ECA</td>
+<td>2000</td>
+<td>NaN</td>
+<td>6.115745e+07</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>3.907047e+11</td>
+<td>15.940812</td>
+<td>8.575861</td>
+<td>None</td>
 </tr>
 </tbody>
 </table>
@@ -7934,7 +7944,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Lista de países a eliminar</span>
@@ -8003,7 +8013,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -8079,7 +8089,7 @@ a.anchor-link {
             <span class="n">ticksuffix</span><span class="o">=</span><span class="s2">""</span>
         <span class="p">),</span>
         <span class="n">title</span><span class="o">=</span><span class="p">{</span><span class="s1">'x'</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s1">'xanchor'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span> <span class="s1">'yanchor'</span><span class="p">:</span> <span class="s1">'top'</span><span class="p">,</span> <span class="s1">'font'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'size'</span><span class="p">:</span> <span class="mi">22</span><span class="p">}},</span>
-        <span class="n">width</span><span class="o">=</span><span class="mi">850</span><span class="p">,</span>
+        <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
         <span class="n">height</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span>
         <span class="n">template</span><span class="o">=</span><span class="s1">'plotly_white'</span>
     <span class="p">)</span>
@@ -8088,7 +8098,7 @@ a.anchor-link {
 
 
 <span class="c1"># Ejecutar la aplicación en modo inline dentro de Jupyter</span>
-<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">jupyter_mode</span><span class="o">=</span><span class="s2">"inline"</span><span class="p">,</span> <span class="n">jupyter_width</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span> <span class="n">jupyter_height</span><span class="o">=</span><span class="mi">640</span><span class="p">,</span><span class="n">port</span><span class="o">=</span><span class="mi">8051</span><span class="p">)</span>
+<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">jupyter_mode</span><span class="o">=</span><span class="s2">"inline"</span><span class="p">,</span> <span class="n">jupyter_width</span><span class="o">=</span><span class="mi">1050</span><span class="p">,</span> <span class="n">jupyter_height</span><span class="o">=</span><span class="mi">640</span><span class="p">,</span><span class="n">port</span><span class="o">=</span><span class="mi">8061</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8101,7 +8111,26 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<iframe allowfullscreen="" frameborder="0" height="640" src="http://127.0.0.1:8051/" width="900"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="640" src="http://127.0.0.1:8061/" width="1050"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="md-container" id="per-year-tendencies">
+<div class="md-title">Tendencias por año</div>
+<p class="md-text">
+        En esta sección se presenta el siguiente análisis tiene como objetivo proporcionar una visión estructurada del número de llegadas de turistas internacionales a lo largo de los años para cada país. La metodología utilizada permite identificar tanto los principales destinos turísticos como aquellos países con menor recepción de turistas, además de calcular estadísticas globales relevantes como la media y la mediana de llegadas.
+    </p>
+<p class="md-text">
+        Podemos en estos datos ver algunas tendencias, como un consistente incremento del turismo a nivel global, y unos claros líderes a nivel de turistas, Francia, Estados Unidos y China
+    </p>
 </div>
 </div>
 </div>
@@ -8111,7 +8140,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -8412,15 +8441,161 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="md-container" id="interactive-top-10">
+<div class="md-title">Tendencias por año</div>
+<p class="md-text">
+El siguiente código implementa una aplicación interactiva, cuyo objetivo es permitir la exploración visual de diversas métricas turísticas y económicas a nivel mundial. Esta herramienta ofrece la posibilidad de identificar patrones, comparar y analizar los líderes de cada una de las variables.
+    </p>
+<p class="md-text">
+        Podemos en estos datos ver algunas tendencias, como un consistente incremento del turismo a nivel global, y unos claros líderes a nivel de turistas, Francia, Estados Unidos y China
+    </p>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">from</span> <span class="nn">dash</span> <span class="kn">import</span> <span class="n">Dash</span><span class="p">,</span> <span class="n">dcc</span><span class="p">,</span> <span class="n">html</span><span class="p">,</span> <span class="n">Input</span><span class="p">,</span> <span class="n">Output</span>
+<span class="kn">import</span> <span class="nn">dash_daq</span> <span class="k">as</span> <span class="nn">daq</span>
+<span class="kn">import</span> <span class="nn">dash</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">variables</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'tourism_arrivals'</span><span class="p">,</span> <span class="s1">'tourism_receipts'</span><span class="p">,</span> <span class="s1">'gdp'</span><span class="p">,</span> <span class="s1">'tourism_expenditures'</span><span class="p">,</span> <span class="s1">'inflation'</span><span class="p">,</span> <span class="s1">'unemployment'</span><span class="p">]</span>
+
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Dash</span><span class="p">(</span><span class="s2">"barplotCountryHighlights"</span><span class="p">)</span>
+
+<span class="c1"># Layout de la aplicación Dash</span>
+<span class="n">app</span><span class="o">.</span><span class="n">layout</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+    
+    <span class="c1"># Filtro para seleccionar la variable</span>
+    <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+        <span class="nb">id</span><span class="o">=</span><span class="s2">"variable-selector"</span><span class="p">,</span>
+        <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(),</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">var</span><span class="p">}</span> <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">variables</span><span class="p">],</span>
+
+        <span class="n">value</span><span class="o">=</span><span class="s1">'tourism_arrivals'</span><span class="p">,</span>  <span class="c1"># Valor por defecto</span>
+        <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'position'</span><span class="p">:</span> <span class="s1">'absolute'</span><span class="p">,</span> <span class="s1">'top'</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">:</span> <span class="s1">'15%'</span><span class="p">,</span> <span class="s1">'transform'</span><span class="p">:</span> <span class="s1">'translateX(-50%)'</span><span class="p">,</span> <span class="s1">'zIndex'</span><span class="p">:</span> <span class="s1">'1000'</span><span class="p">,</span><span class="s1">'width'</span><span class="p">:</span><span class="s1">'200px'</span><span class="p">}</span>
+
+    <span class="p">),</span>
+    
+    <span class="c1"># Filtro para seleccionar si es Top o Bottom</span>
+    <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+        <span class="nb">id</span><span class="o">=</span><span class="s2">"top-bottom-selector"</span><span class="p">,</span>
+        <span class="n">options</span><span class="o">=</span><span class="p">[</span>
+            <span class="p">{</span><span class="s1">'label'</span><span class="p">:</span> <span class="s1">'Top 10'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="s1">'top'</span><span class="p">},</span>
+            <span class="p">{</span><span class="s1">'label'</span><span class="p">:</span> <span class="s1">'Bottom 10'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="s1">'bottom'</span><span class="p">}</span>
+        <span class="p">],</span>
+        <span class="n">value</span><span class="o">=</span><span class="s1">'top'</span><span class="p">,</span>  <span class="c1"># Valor por defecto</span>
+        <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'position'</span><span class="p">:</span> <span class="s1">'absolute'</span><span class="p">,</span> <span class="s1">'top'</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">:</span> <span class="s1">'30%'</span><span class="p">,</span> <span class="s1">'transform'</span><span class="p">:</span> <span class="s1">'translateX(-50%)'</span><span class="p">,</span> <span class="s1">'zIndex'</span><span class="p">:</span> <span class="s1">'1000'</span><span class="p">,</span><span class="s1">'width'</span><span class="p">:</span><span class="s1">'200px'</span><span class="p">}</span>
+
+    <span class="p">),</span>
+    
+    <span class="c1"># Filtro para seleccionar el año</span>
+    <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+        <span class="nb">id</span><span class="o">=</span><span class="s2">"year-selector"</span><span class="p">,</span>
+        <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">),</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">year</span><span class="p">}</span> <span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">df_countries</span><span class="p">[</span><span class="s1">'year'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())],</span>
+        <span class="n">value</span><span class="o">=</span><span class="mi">1999</span><span class="p">,</span>  <span class="c1"># Año por defecto</span>
+        <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'position'</span><span class="p">:</span> <span class="s1">'absolute'</span><span class="p">,</span> <span class="s1">'top'</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">:</span> <span class="s1">'45%'</span><span class="p">,</span> <span class="s1">'transform'</span><span class="p">:</span> <span class="s1">'translateX(-50%)'</span><span class="p">,</span> <span class="s1">'zIndex'</span><span class="p">:</span> <span class="s1">'1000'</span><span class="p">,</span><span class="s1">'width'</span><span class="p">:</span><span class="s1">'200px'</span><span class="p">}</span>
+
+    <span class="p">),</span>
+    
+    <span class="c1"># Gráfico de barras</span>
+    <span class="n">dcc</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"bar-chart"</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'margin-top'</span><span class="p">:</span><span class="s1">'40px'</span><span class="p">}),</span>
+
+  
+<span class="p">])</span>
+
+<span class="c1"># Función para obtener la bandera de cada país (nueva URL ya que countryflags.io ha sido descontinuado)</span>
+<span class="k">def</span> <span class="nf">get_flag</span><span class="p">(</span><span class="n">alpha2_code</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">alpha2_code</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">alpha2_code</span> <span class="o">=</span> <span class="s2">"un"</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s1">'https://flagcdn.com/h40/</span><span class="si">{</span><span class="n">alpha2_code</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="si">}</span><span class="s1">.png'</span>
+
+<span class="c1"># Callback para actualizar el gráfico de barras con banderas</span>
+<span class="nd">@app</span><span class="o">.</span><span class="n">callback</span><span class="p">(</span>
+    <span class="n">Output</span><span class="p">(</span><span class="s2">"bar-chart"</span><span class="p">,</span> <span class="s2">"figure"</span><span class="p">),</span>
+    <span class="p">[</span>
+        <span class="n">Input</span><span class="p">(</span><span class="s2">"variable-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">),</span>
+        <span class="n">Input</span><span class="p">(</span><span class="s2">"top-bottom-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">),</span>
+        <span class="n">Input</span><span class="p">(</span><span class="s2">"year-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">)</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="k">def</span> <span class="nf">update_chart</span><span class="p">(</span><span class="n">selected_variable</span><span class="p">,</span> <span class="n">selected_top_bottom</span><span class="p">,</span> <span class="n">selected_year</span><span class="p">):</span>
+    <span class="c1"># Filtrar los datos por el año seleccionado</span>
+    <span class="n">df_year</span> <span class="o">=</span> <span class="n">df_countries</span><span class="p">[</span><span class="n">df_countries</span><span class="p">[</span><span class="s1">'year'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_year</span><span class="p">]</span>
+
+    <span class="c1"># Ordenar los países según la variable seleccionada</span>
+    <span class="n">df_year</span> <span class="o">=</span> <span class="n">df_year</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="n">selected_variable</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="c1"># Seleccionar los Top o Bottom según la elección</span>
+    <span class="k">if</span> <span class="n">selected_top_bottom</span> <span class="o">==</span> <span class="s1">'top'</span><span class="p">:</span>
+        <span class="n">df_top_bottom</span> <span class="o">=</span> <span class="n">df_year</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">df_top_bottom</span> <span class="o">=</span> <span class="n">df_year</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+    <span class="c1"># Obtener las banderas de los países</span>
+    <span class="n">df_top_bottom</span> <span class="o">=</span> <span class="n">df_top_bottom</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'flag_url'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'country_code_2'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_flag</span><span class="p">)</span>
+    <span class="c1"># Crear la figura de barras</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+
+    <span class="c1"># Agregar las barras</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Bar</span><span class="p">(</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'country'</span><span class="p">],</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">df_top_bottom</span><span class="p">[</span><span class="n">selected_variable</span><span class="p">],</span>
+        <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">'rgb(51, 204, 255)'</span><span class="p">),</span>
+        <span class="n">text</span><span class="o">=</span><span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'country'</span><span class="p">],</span>  <span class="c1"># Mostrar nombres de los países al pasar el mouse</span>
+        <span class="n">textposition</span><span class="o">=</span><span class="s1">'auto'</span>
+    <span class="p">))</span>
+
+    <span class="c1"># Agregar imágenes de banderas como "layout images"</span>
+    <span class="n">flag_images</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">df_top_bottom</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="n">flag_images</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+            <span class="s2">"source"</span><span class="p">:</span> <span class="n">row</span><span class="p">[</span><span class="s1">'flag_url'</span><span class="p">],</span>  <span class="c1"># URL de la bandera</span>
+            <span class="s2">"xref"</span><span class="p">:</span> <span class="s2">"x"</span><span class="p">,</span>
+            <span class="s2">"yref"</span><span class="p">:</span> <span class="s2">"paper"</span><span class="p">,</span>  <span class="c1"># Coordenadas relativas al gráfico</span>
+            <span class="s2">"x"</span><span class="p">:</span> <span class="n">row</span><span class="p">[</span><span class="s1">'country'</span><span class="p">],</span>  <span class="c1"># Posición en el eje X (nombre del país)</span>
+            <span class="s2">"y"</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.1</span><span class="p">,</span>  <span class="c1"># Por debajo del eje X</span>
+            <span class="s2">"xanchor"</span><span class="p">:</span> <span class="s2">"center"</span><span class="p">,</span>
+            <span class="s2">"yanchor"</span><span class="p">:</span> <span class="s2">"middle"</span><span class="p">,</span>
+            <span class="s2">"sizex"</span><span class="p">:</span> <span class="mf">0.4</span><span class="p">,</span>  <span class="c1"># Ancho relativo</span>
+            <span class="s2">"sizey"</span><span class="p">:</span> <span class="mf">0.3</span><span class="p">,</span>  <span class="c1"># Alto relativo</span>
+            <span class="s2">"layer"</span><span class="p">:</span> <span class="s2">"below"</span>
+        <span class="p">})</span>
+
+    <span class="c1"># Configurar el diseño del gráfico</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+        <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">"&lt;b&gt;Top 10 / Bottom 10 países por </span><span class="si">{</span><span class="n">selected_variable</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span><span class="w"> </span><span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">selected_year</span><span class="si">}</span><span class="s2">)&lt;/b&gt;"</span><span class="p">,</span>
+        <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">selected_variable</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()),</span>
+        <span class="n">template</span><span class="o">=</span><span class="s2">"plotly_white"</span><span class="p">,</span>
+        <span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+        <span class="n">height</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span>
+        <span class="n">margin</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">100</span><span class="p">),</span>  <span class="c1"># Espacio adicional para las banderas</span>
+        <span class="n">images</span><span class="o">=</span><span class="n">flag_images</span>  <span class="c1"># Agregar las imágenes de banderas</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">fig</span>
+
+<span class="c1"># Ejecutar la aplicación</span>
+<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">jupyter_mode</span><span class="o">=</span><span class="s2">"inline"</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1050</span><span class="p">,</span><span class="n">port</span><span class="o">=</span><span class="mi">8063</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8433,7 +8608,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<iframe allowfullscreen="" frameborder="0" height="650" src="http://127.0.0.1:8052/" width="100%"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="650" src="http://127.0.0.1:8063/" width="100%"></iframe>
 </div>
 </div>
 </div>
@@ -8443,7 +8618,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -8573,7 +8748,7 @@ a.anchor-link {
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;function __main__.update_map(year)&gt;</pre>
 </div>
@@ -8585,159 +8760,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
-<span class="kn">from</span> <span class="nn">dash</span> <span class="kn">import</span> <span class="n">Dash</span><span class="p">,</span> <span class="n">dcc</span><span class="p">,</span> <span class="n">html</span><span class="p">,</span> <span class="n">Input</span><span class="p">,</span> <span class="n">Output</span>
-<span class="kn">import</span> <span class="nn">dash_daq</span> <span class="k">as</span> <span class="nn">daq</span>
-<span class="kn">import</span> <span class="nn">dash</span>
-<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
-<span class="kn">import</span> <span class="nn">requests</span>
-
-<span class="n">variables</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'tourism_arrivals'</span><span class="p">,</span> <span class="s1">'tourism_receipts'</span><span class="p">,</span> <span class="s1">'gdp'</span><span class="p">,</span> <span class="s1">'tourism_expenditures'</span><span class="p">,</span> <span class="s1">'inflation'</span><span class="p">,</span> <span class="s1">'unemployment'</span><span class="p">]</span>
-
-
-<span class="n">app</span> <span class="o">=</span> <span class="n">Dash</span><span class="p">(</span><span class="s2">"barplotCountryHighlights"</span><span class="p">)</span>
-
-<span class="c1"># Layout de la aplicación Dash</span>
-<span class="n">app</span><span class="o">.</span><span class="n">layout</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
-    
-    <span class="c1"># Filtro para seleccionar la variable</span>
-    <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
-        <span class="nb">id</span><span class="o">=</span><span class="s2">"variable-selector"</span><span class="p">,</span>
-        <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(),</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">var</span><span class="p">}</span> <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">variables</span><span class="p">],</span>
-
-        <span class="n">value</span><span class="o">=</span><span class="s1">'tourism_arrivals'</span><span class="p">,</span>  <span class="c1"># Valor por defecto</span>
-        <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'position'</span><span class="p">:</span> <span class="s1">'absolute'</span><span class="p">,</span> <span class="s1">'top'</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">:</span> <span class="s1">'15%'</span><span class="p">,</span> <span class="s1">'transform'</span><span class="p">:</span> <span class="s1">'translateX(-50%)'</span><span class="p">,</span> <span class="s1">'zIndex'</span><span class="p">:</span> <span class="s1">'1000'</span><span class="p">,</span><span class="s1">'width'</span><span class="p">:</span><span class="s1">'200px'</span><span class="p">}</span>
-
-    <span class="p">),</span>
-    
-    <span class="c1"># Filtro para seleccionar si es Top o Bottom</span>
-    <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
-        <span class="nb">id</span><span class="o">=</span><span class="s2">"top-bottom-selector"</span><span class="p">,</span>
-        <span class="n">options</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s1">'label'</span><span class="p">:</span> <span class="s1">'Top 10'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="s1">'top'</span><span class="p">},</span>
-            <span class="p">{</span><span class="s1">'label'</span><span class="p">:</span> <span class="s1">'Bottom 10'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="s1">'bottom'</span><span class="p">}</span>
-        <span class="p">],</span>
-        <span class="n">value</span><span class="o">=</span><span class="s1">'top'</span><span class="p">,</span>  <span class="c1"># Valor por defecto</span>
-        <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'position'</span><span class="p">:</span> <span class="s1">'absolute'</span><span class="p">,</span> <span class="s1">'top'</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">:</span> <span class="s1">'30%'</span><span class="p">,</span> <span class="s1">'transform'</span><span class="p">:</span> <span class="s1">'translateX(-50%)'</span><span class="p">,</span> <span class="s1">'zIndex'</span><span class="p">:</span> <span class="s1">'1000'</span><span class="p">,</span><span class="s1">'width'</span><span class="p">:</span><span class="s1">'200px'</span><span class="p">}</span>
-
-    <span class="p">),</span>
-    
-    <span class="c1"># Filtro para seleccionar el año</span>
-    <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
-        <span class="nb">id</span><span class="o">=</span><span class="s2">"year-selector"</span><span class="p">,</span>
-        <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">),</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">year</span><span class="p">}</span> <span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">df_countries</span><span class="p">[</span><span class="s1">'year'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())],</span>
-        <span class="n">value</span><span class="o">=</span><span class="mi">1999</span><span class="p">,</span>  <span class="c1"># Año por defecto</span>
-        <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'position'</span><span class="p">:</span> <span class="s1">'absolute'</span><span class="p">,</span> <span class="s1">'top'</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">:</span> <span class="s1">'45%'</span><span class="p">,</span> <span class="s1">'transform'</span><span class="p">:</span> <span class="s1">'translateX(-50%)'</span><span class="p">,</span> <span class="s1">'zIndex'</span><span class="p">:</span> <span class="s1">'1000'</span><span class="p">,</span><span class="s1">'width'</span><span class="p">:</span><span class="s1">'200px'</span><span class="p">}</span>
-
-    <span class="p">),</span>
-    
-    <span class="c1"># Gráfico de barras</span>
-    <span class="n">dcc</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"bar-chart"</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'margin-top'</span><span class="p">:</span><span class="s1">'40px'</span><span class="p">}),</span>
-
-  
-<span class="p">])</span>
-
-<span class="c1"># Función para obtener la bandera de cada país (nueva URL ya que countryflags.io ha sido descontinuado)</span>
-<span class="k">def</span> <span class="nf">get_flag</span><span class="p">(</span><span class="n">alpha2_code</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">alpha2_code</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">alpha2_code</span> <span class="o">=</span> <span class="s2">"un"</span>
-    <span class="k">return</span> <span class="sa">f</span><span class="s1">'https://flagcdn.com/h40/</span><span class="si">{</span><span class="n">alpha2_code</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="si">}</span><span class="s1">.png'</span>
-
-<span class="c1"># Callback para actualizar el gráfico de barras con banderas</span>
-<span class="nd">@app</span><span class="o">.</span><span class="n">callback</span><span class="p">(</span>
-    <span class="n">Output</span><span class="p">(</span><span class="s2">"bar-chart"</span><span class="p">,</span> <span class="s2">"figure"</span><span class="p">),</span>
-    <span class="p">[</span>
-        <span class="n">Input</span><span class="p">(</span><span class="s2">"variable-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">),</span>
-        <span class="n">Input</span><span class="p">(</span><span class="s2">"top-bottom-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">),</span>
-        <span class="n">Input</span><span class="p">(</span><span class="s2">"year-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">)</span>
-    <span class="p">]</span>
-<span class="p">)</span>
-<span class="k">def</span> <span class="nf">update_chart</span><span class="p">(</span><span class="n">selected_variable</span><span class="p">,</span> <span class="n">selected_top_bottom</span><span class="p">,</span> <span class="n">selected_year</span><span class="p">):</span>
-    <span class="c1"># Filtrar los datos por el año seleccionado</span>
-    <span class="n">df_year</span> <span class="o">=</span> <span class="n">df_countries</span><span class="p">[</span><span class="n">df_countries</span><span class="p">[</span><span class="s1">'year'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_year</span><span class="p">]</span>
-
-    <span class="c1"># Ordenar los países según la variable seleccionada</span>
-    <span class="n">df_year</span> <span class="o">=</span> <span class="n">df_year</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="n">selected_variable</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-
-    <span class="c1"># Seleccionar los Top o Bottom según la elección</span>
-    <span class="k">if</span> <span class="n">selected_top_bottom</span> <span class="o">==</span> <span class="s1">'top'</span><span class="p">:</span>
-        <span class="n">df_top_bottom</span> <span class="o">=</span> <span class="n">df_year</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">df_top_bottom</span> <span class="o">=</span> <span class="n">df_year</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-
-    <span class="c1"># Obtener las banderas de los países</span>
-    <span class="n">df_top_bottom</span> <span class="o">=</span> <span class="n">df_top_bottom</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'flag_url'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'country_code_2'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_flag</span><span class="p">)</span>
-    <span class="c1"># Crear la figura de barras</span>
-    <span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
-
-    <span class="c1"># Agregar las barras</span>
-    <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Bar</span><span class="p">(</span>
-        <span class="n">x</span><span class="o">=</span><span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'country'</span><span class="p">],</span>
-        <span class="n">y</span><span class="o">=</span><span class="n">df_top_bottom</span><span class="p">[</span><span class="n">selected_variable</span><span class="p">],</span>
-        <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">'rgb(55, 83, 109)'</span><span class="p">),</span>
-        <span class="n">text</span><span class="o">=</span><span class="n">df_top_bottom</span><span class="p">[</span><span class="s1">'country'</span><span class="p">],</span>  <span class="c1"># Mostrar nombres de los países al pasar el mouse</span>
-        <span class="n">textposition</span><span class="o">=</span><span class="s1">'auto'</span>
-    <span class="p">))</span>
-
-    <span class="c1"># Agregar imágenes de banderas como "layout images"</span>
-    <span class="n">flag_images</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">df_top_bottom</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
-        <span class="n">flag_images</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-            <span class="s2">"source"</span><span class="p">:</span> <span class="n">row</span><span class="p">[</span><span class="s1">'flag_url'</span><span class="p">],</span>  <span class="c1"># URL de la bandera</span>
-            <span class="s2">"xref"</span><span class="p">:</span> <span class="s2">"x"</span><span class="p">,</span>
-            <span class="s2">"yref"</span><span class="p">:</span> <span class="s2">"paper"</span><span class="p">,</span>  <span class="c1"># Coordenadas relativas al gráfico</span>
-            <span class="s2">"x"</span><span class="p">:</span> <span class="n">row</span><span class="p">[</span><span class="s1">'country'</span><span class="p">],</span>  <span class="c1"># Posición en el eje X (nombre del país)</span>
-            <span class="s2">"y"</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.1</span><span class="p">,</span>  <span class="c1"># Por debajo del eje X</span>
-            <span class="s2">"xanchor"</span><span class="p">:</span> <span class="s2">"center"</span><span class="p">,</span>
-            <span class="s2">"yanchor"</span><span class="p">:</span> <span class="s2">"middle"</span><span class="p">,</span>
-            <span class="s2">"sizex"</span><span class="p">:</span> <span class="mf">0.2</span><span class="p">,</span>  <span class="c1"># Ancho relativo</span>
-            <span class="s2">"sizey"</span><span class="p">:</span> <span class="mf">0.15</span><span class="p">,</span>  <span class="c1"># Alto relativo</span>
-            <span class="s2">"layer"</span><span class="p">:</span> <span class="s2">"below"</span>
-        <span class="p">})</span>
-
-    <span class="c1"># Configurar el diseño del gráfico</span>
-    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-        <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">"&lt;b&gt;Top 10 / Bottom 10 países por </span><span class="si">{</span><span class="n">selected_variable</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span><span class="w"> </span><span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">selected_year</span><span class="si">}</span><span class="s2">)&lt;/b&gt;"</span><span class="p">,</span>
-        <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">selected_variable</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()),</span>
-        <span class="n">template</span><span class="o">=</span><span class="s2">"plotly_white"</span><span class="p">,</span>
-        <span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-        <span class="n">height</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span>
-        <span class="n">margin</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="mi">100</span><span class="p">),</span>  <span class="c1"># Espacio adicional para las banderas</span>
-        <span class="n">images</span><span class="o">=</span><span class="n">flag_images</span>  <span class="c1"># Agregar las imágenes de banderas</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">fig</span>
-
-<span class="c1"># Ejecutar la aplicación</span>
-<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">jupyter_mode</span><span class="o">=</span><span class="s2">"inline"</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8053</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<iframe allowfullscreen="" frameborder="0" height="650" src="http://127.0.0.1:8053/" width="100%"></iframe>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -8844,14 +8867,124 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Agrupar por año y obtener el valor de tourism_receipts por año</span>
-<span class="n">df_grouped_by_year</span> <span class="o">=</span> <span class="n">df_filtered</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)[</span><span class="s1">'tourism_receipts'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">from</span> <span class="nn">dash</span> <span class="kn">import</span> <span class="n">Dash</span><span class="p">,</span> <span class="n">dcc</span><span class="p">,</span> <span class="n">html</span><span class="p">,</span> <span class="n">Input</span><span class="p">,</span> <span class="n">Output</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">from</span> <span class="nn">sklearn.cluster</span> <span class="kn">import</span> <span class="n">KMeans</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
 
-<span class="c1"># Imprimir los valores de tourism_receipts por año</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">df_grouped_by_year</span><span class="p">)</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">)</span>
+
+
+<span class="c1"># Variables disponibles para clustering</span>
+<span class="n">variables</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'tourism_arrivals'</span><span class="p">,</span> <span class="s1">'tourism_receipts'</span><span class="p">,</span> <span class="s1">'gdp'</span><span class="p">,</span> 
+             <span class="s1">'tourism_expenditures'</span><span class="p">,</span> <span class="s1">'inflation'</span><span class="p">,</span> <span class="s1">'unemployment'</span><span class="p">]</span>
+
+<span class="c1"># Inicializar la app Dash</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Dash</span><span class="p">(</span><span class="s2">"clustering"</span><span class="p">)</span>
+
+<span class="c1"># Layout de la aplicación Dash</span>
+<span class="n">app</span><span class="o">.</span><span class="n">layout</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+    <span class="n">html</span><span class="o">.</span><span class="n">H1</span><span class="p">(</span><span class="s2">"Clustering de Países por Indicadores Turísticos y Económicos"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'textAlign'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">}),</span>
+
+    <span class="c1"># Dropdowns para seleccionar las variables de clustering</span>
+    <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+            <span class="nb">id</span><span class="o">=</span><span class="s2">"x-variable-selector"</span><span class="p">,</span>
+            <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(),</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">var</span><span class="p">}</span> <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">variables</span><span class="p">],</span>
+            <span class="n">value</span><span class="o">=</span><span class="s1">'tourism_arrivals'</span><span class="p">,</span>  <span class="c1"># Valor por defecto en eje X</span>
+            <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'45%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span> <span class="s1">'margin-right'</span><span class="p">:</span> <span class="s1">'5%'</span><span class="p">}</span>
+        <span class="p">),</span>
+
+        <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+            <span class="nb">id</span><span class="o">=</span><span class="s2">"y-variable-selector"</span><span class="p">,</span>
+            <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(),</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">var</span><span class="p">}</span> <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">variables</span><span class="p">],</span>
+            <span class="n">value</span><span class="o">=</span><span class="s1">'gdp'</span><span class="p">,</span>  <span class="c1"># Valor por defecto en eje Y</span>
+            <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'45%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">}</span>
+        <span class="p">)</span>
+    <span class="p">],</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'70%'</span><span class="p">,</span> <span class="s1">'margin'</span><span class="p">:</span> <span class="s1">'auto'</span><span class="p">,</span> <span class="s1">'padding'</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">}),</span>
+
+    <span class="c1"># Slider para seleccionar el número de clusters</span>
+    <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">dcc</span><span class="o">.</span><span class="n">Slider</span><span class="p">(</span>
+            <span class="nb">id</span><span class="o">=</span><span class="s2">"cluster-slider"</span><span class="p">,</span>
+            <span class="nb">min</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+            <span class="nb">max</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+            <span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+            <span class="n">value</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>  <span class="c1"># Valor inicial de clusters</span>
+            <span class="n">marks</span><span class="o">=</span><span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">)},</span>
+            <span class="n">tooltip</span><span class="o">=</span><span class="p">{</span><span class="s2">"placement"</span><span class="p">:</span> <span class="s2">"bottom"</span><span class="p">,</span> <span class="s2">"always_visible"</span><span class="p">:</span> <span class="kc">True</span><span class="p">}</span>
+        <span class="p">)</span>
+    <span class="p">],</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'50%'</span><span class="p">,</span> <span class="s1">'margin'</span><span class="p">:</span> <span class="s1">'auto'</span><span class="p">,</span> <span class="s1">'padding'</span><span class="p">:</span> <span class="s1">'20px'</span><span class="p">}),</span>
+
+    <span class="c1"># Gráfico de clustering</span>
+    <span class="n">dcc</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"cluster-graph"</span><span class="p">)</span>
+<span class="p">])</span>
+
+<span class="c1"># Función para obtener la URL de la bandera de un país</span>
+<span class="k">def</span> <span class="nf">get_flag_url</span><span class="p">(</span><span class="n">alpha2_code</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">alpha2_code</span><span class="p">):</span>
+        <span class="n">alpha2_code</span> <span class="o">=</span> <span class="s2">"un"</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">"https://flagcdn.com/w40/</span><span class="si">{</span><span class="n">alpha2_code</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="si">}</span><span class="s2">.png"</span>
+
+<span class="c1"># Callback para actualizar el gráfico de clustering</span>
+<span class="nd">@app</span><span class="o">.</span><span class="n">callback</span><span class="p">(</span>
+    <span class="n">Output</span><span class="p">(</span><span class="s2">"cluster-graph"</span><span class="p">,</span> <span class="s2">"figure"</span><span class="p">),</span>
+    <span class="p">[</span><span class="n">Input</span><span class="p">(</span><span class="s2">"x-variable-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">),</span>
+     <span class="n">Input</span><span class="p">(</span><span class="s2">"y-variable-selector"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">),</span>
+     <span class="n">Input</span><span class="p">(</span><span class="s2">"cluster-slider"</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">)]</span>
+<span class="p">)</span>
+<span class="k">def</span> <span class="nf">update_clusters</span><span class="p">(</span><span class="n">x_var</span><span class="p">,</span> <span class="n">y_var</span><span class="p">,</span> <span class="n">n_clusters</span><span class="p">):</span>
+    <span class="c1"># Filtrar datos por las variables seleccionadas y normalizar</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">df_countries</span><span class="p">[[</span><span class="s1">'country'</span><span class="p">,</span> <span class="s1">'country_code_2'</span><span class="p">,</span> <span class="n">x_var</span><span class="p">,</span> <span class="n">y_var</span><span class="p">]]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+    <span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data</span><span class="p">[[</span><span class="n">x_var</span><span class="p">,</span> <span class="n">y_var</span><span class="p">]])</span>
+
+    <span class="c1"># Aplicar K-Means clustering</span>
+    <span class="n">kmeans</span> <span class="o">=</span> <span class="n">KMeans</span><span class="p">(</span><span class="n">n_clusters</span><span class="o">=</span><span class="n">n_clusters</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">'cluster'</span><span class="p">]</span> <span class="o">=</span> <span class="n">kmeans</span><span class="o">.</span><span class="n">fit_predict</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+
+    <span class="c1"># Obtener banderas</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">'flag_url'</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">'country_code_2'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_flag_url</span><span class="p">)</span>
+
+    <span class="c1"># Crear gráfico de dispersión interactivo con banderas</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span>
+        <span class="n">data</span><span class="p">,</span> 
+        <span class="n">x</span><span class="o">=</span><span class="n">x_var</span><span class="p">,</span> 
+        <span class="n">y</span><span class="o">=</span><span class="n">y_var</span><span class="p">,</span> 
+        <span class="n">color</span><span class="o">=</span><span class="n">data</span><span class="p">[</span><span class="s1">'cluster'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">),</span> 
+        <span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Clustering de países basado en </span><span class="si">{</span><span class="n">x_var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span><span class="w"> </span><span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s2"> y </span><span class="si">{</span><span class="n">y_var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span><span class="w"> </span><span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="n">labels</span><span class="o">=</span><span class="p">{</span><span class="n">x_var</span><span class="p">:</span> <span class="n">x_var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(),</span> 
+                <span class="n">y_var</span><span class="p">:</span> <span class="n">y_var</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'_'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span><span class="p">(),</span> 
+                <span class="s1">'cluster'</span><span class="p">:</span> <span class="s1">'Cluster'</span><span class="p">},</span>
+        <span class="n">hover_name</span><span class="o">=</span><span class="s1">'country'</span><span class="p">,</span>
+        <span class="n">hover_data</span><span class="o">=</span><span class="p">{</span><span class="s1">'country'</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="n">x_var</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="n">y_var</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">'cluster'</span><span class="p">:</span> <span class="kc">True</span><span class="p">},</span>
+        <span class="n">color_discrete_sequence</span><span class="o">=</span><span class="n">px</span><span class="o">.</span><span class="n">colors</span><span class="o">.</span><span class="n">qualitative</span><span class="o">.</span><span class="n">Pastel</span>
+    <span class="p">)</span>
+
+    <span class="c1"># Agregar imágenes de banderas en el gráfico</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_layout_image</span><span class="p">(</span>
+            <span class="nb">dict</span><span class="p">(</span>
+                <span class="n">source</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="s1">'flag_url'</span><span class="p">],</span>
+                <span class="n">x</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="n">x_var</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="n">y_var</span><span class="p">],</span>
+                <span class="n">xref</span><span class="o">=</span><span class="s2">"x"</span><span class="p">,</span> <span class="n">yref</span><span class="o">=</span><span class="s2">"y"</span><span class="p">,</span>
+                <span class="n">sizex</span><span class="o">=</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">sizey</span><span class="o">=</span><span class="mf">0.05</span><span class="p">,</span>
+                <span class="n">xanchor</span><span class="o">=</span><span class="s2">"center"</span><span class="p">,</span> <span class="n">yanchor</span><span class="o">=</span><span class="s2">"middle"</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span> <span class="n">template</span><span class="o">=</span><span class="s2">"plotly_white"</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">fig</span>
+
+<span class="c1"># Ejecutar la aplicación</span>
+<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">jupyter_mode</span><span class="o">=</span><span class="s2">"inline"</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8055</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="s2">"True"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8863,56 +8996,8 @@ a.anchor-link {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>    year  tourism_receipts
-0   1999      4.944509e+09
-1   2000      5.169336e+09
-2   2001      4.545401e+09
-3   2002      4.622954e+09
-4   2003      4.906968e+09
-5   2004      5.935696e+09
-6   2005      5.770866e+09
-7   2006      6.410116e+09
-8   2007      7.273829e+09
-9   2008      8.021718e+09
-10  2009      6.764656e+09
-11  2010      7.299199e+09
-12  2011      8.008979e+09
-13  2012      8.747342e+09
-14  2013      9.434504e+09
-15  2014      9.047668e+09
-16  2015      9.986319e+09
-17  2016      1.046542e+10
-18  2017      1.091681e+10
-19  2018      1.282194e+10
-20  2019      1.272773e+10
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_grouped_by_year</span><span class="o">.</span><span class="n">columns</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>Index(['year', 'tourism_receipts', 'tourism_receipts_pct_change'], dtype='object')</pre>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<iframe allowfullscreen="" frameborder="0" height="650" src="http://127.0.0.1:8055/" width="100%"></iframe>
 </div>
 </div>
 </div>
